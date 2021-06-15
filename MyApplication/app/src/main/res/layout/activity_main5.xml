@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b8edff"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+
+    <TextView
+        android:id="@+id/unit_number_header"
+        android:layout_width="260dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:paddingTop="70dp"
+        android:text="@string/outcome"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="30dp"
+        android:background="#f1f1f1">
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/header_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/heeder_last"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+
+                android:id="@+id/header_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/header_current"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/know_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/action_sign_in" />
+
+            <TextView
+                android:id="@+id/know_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/amount" />
+
+            <TextView
+                android:id="@+id/know_words_header"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="@string/know_words_header"
+                android:textStyle="bold"
+                />
+
+        </TableRow>
+
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/half_know_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/amount" />
+
+            <TextView
+                android:id="@+id/half_know_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/action_sign_in" />
+
+            <TextView
+                android:id="@+id/half_know_words_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/half_know_words_header"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/unknow_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/amount" />
+
+
+            <TextView
+                android:id="@+id/unknow_current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/action_sign_in" />
+
+            <TextView
+                android:id="@+id/unknow_words_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/unknow_word_header"
+                android:textStyle="bold"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/num_of_words_in_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:text="@string/amount" />
+
+    <Button
+        android:id="@+id/move_to_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/move_to" />
+
+</LinearLayout>
